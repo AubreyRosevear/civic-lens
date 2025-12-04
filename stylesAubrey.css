@@ -133,9 +133,69 @@ background: #457B9D;
 
 /* ///ADD/// Global Layout Styles */
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background:white;
+  margin: 0;
+  color: #111;
+  font-family: 'Merriweather';
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  line-height: 2.3;
+  color: #111;
+  margin: 0;
+  font-size: larger;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111;
+  margin: 0;
+  font-size: large;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  font-weight: 500;
+  line-height: 1;
+  color: #111;
+  margin: 0;
+  font-size: medium;
+}
+
+p, li {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  color: #111;
+  font-size: medium;  
+}
+
+.site-header {
+  background: #1D3557;
+  color: white;
+  padding: 20px;
+}
+
+.tagline {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.welcome blockquote {
+  margin-top: 15px;
+  font-style: italic;
+  text-align: center;
 }
 
 /* ///ADD/// Global Text Styles */
