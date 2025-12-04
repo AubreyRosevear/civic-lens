@@ -126,8 +126,17 @@ body.dark-mode {
   border-radius: 3px;
   
 }
-/* ///ADD/// Global Layout Styles */
 
+.nav-btn:hover {
+background: #457B9D;
+}
+
+/* ///ADD/// Global Layout Styles */
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* ///ADD/// Global Text Styles */
 
